@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can visit the application at https://fahadhameed89.github.io/
+
 ## Introduction
 
 In this brief tutorial, we will build a template application using create-react-app and host it to github pages. This is a great way to demonstrate a react website without having to pay for hosting! 
@@ -13,25 +15,37 @@ In this brief tutorial, we will build a template application using create-react-
 
 ### Requirements
 
-1. [`Node.js`](https://nodejs.org/) installed. 
+- 
+
+1. Install [`Node.js`](https://nodejs.org/) and ensure you have an adequate version on your system. 
 
     ```sh
     $ node --version
+    My Version: v14.15.1
     ```
 
 2. An adequate version of  [`npm`](https://nodejs.org/) is installed. Here's the adequate version I use:
 
     ```sh
     $ npm --version
+    My Version: 7.5.2 
     ```
 3. An adequate version of [`create-react-app`](https://github.com/facebookincubator/create-react-app) is installed. Here's the adequate version I use:
 
     ```sh
     $ create-react-app --version
+    My Version: 4.0.3
     ```
+3. [`Access to the GitHub CLI`](https://docs.github.com/en/github/getting-started-with-github/set-up-git) or the GitHub Desktop client
+
+# Procedure
+1. **Create an *empty* repository on GitHub.**
+    * By *empty*, I mean *without* a `README.md` file, a `.gitignore` file, a `LICENSE` file, or any other files.
 
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `yarn start`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. This is our 'Local' Branch
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
