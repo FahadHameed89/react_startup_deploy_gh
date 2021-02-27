@@ -1,14 +1,36 @@
-# Getting Started with Create React App
+# Deploying a React Application to Github Pages
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+In this brief tutorial, we will build a template application using create-react-app and host it to github pages. This is a great way to demonstrate a react website without having to pay for hosting! 
 
-### `yarn start`
+- As an example, my version of this application can be found here --> https://fahadhameed89.github.io/react_startup_deploy_gh/
+- Please note that the master/main branch will contain the source code, but each time you run 'npm build deploy' you will generate a new branch called gh-pages which will store the build version of your application. 
 
-Runs the app in the development mode.\
+
+
+### Requirements
+
+1. [`Node.js`](https://nodejs.org/) installed. 
+
+    ```sh
+    $ node --version
+    ```
+
+2. An adequate version of  [`npm`](https://nodejs.org/) is installed. Here's the adequate version I use:
+
+    ```sh
+    $ npm --version
+    ```
+3. An adequate version of [`create-react-app`](https://github.com/facebookincubator/create-react-app) is installed. Here's the adequate version I use:
+
+    ```sh
+    $ create-react-app --version
+    ```
+
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -68,3 +90,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# References
+
+1. [Facebook's tutorial on deploying a React app to GitHub Pages](https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom)
+
+2. [rhulse's tutorial on deploying a React app to Github Pages](https://github.com/gitname/react-gh-pages/blob/master/README.md)
