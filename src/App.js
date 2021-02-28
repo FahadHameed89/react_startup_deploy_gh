@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+import FamilyChart from './FamilyChart';
 
 import Button from '@material-ui/core/Button';
 import Fab from '@material-ui/core/Fab';

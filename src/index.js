@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FamilyChart from './FamilyChart';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <FamilyChart />
   </React.StrictMode>,
   document.getElementById('root')
 );
